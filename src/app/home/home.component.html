@@ -1,0 +1,30 @@
+<!--<div class="container">
+
+    <div class="col" style="text-align: center;"><h1>{{titulo}}</h1></div>
+    
+    <br><br>
+    <br><br>
+ 
+  
+  <br><br><br>-->
+  
+  
+  
+  
+  <!--para pasar de padre al hijo llamamos a las vbles del hijo con un nombre identificativo(puede ser el mismo o diferente)-->
+  <!--<app-usuario-hijo *ngFor="let usuario of usuarios; let i=index" [usuarioDeLista]="usuario" [indice] ="i"></app-usuario-hijo>-->
+<!-- home.component.html -->
+<div class="container">
+  <div class="col" style="text-align: center;">
+    <h1>{{titulo}}</h1>
+  </div>
+
+  <br><br><br>
+
+  <table class="table">
+    
+    <tbody>
+      <app-usuario-hijo *ngFor="let usuario of usuarios; let i=index" [usuarioDeLista]="usuario" [indice]="i"></app-usuario-hijo>
+    </tbody>
+  </table>
+</div>

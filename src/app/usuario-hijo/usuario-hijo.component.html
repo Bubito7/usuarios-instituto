@@ -1,0 +1,83 @@
+<!--Listado de usuarios-->
+<!--<div class="container text center">
+    <div class="row lign-items-start">
+      <div class="col">
+
+        <div >
+          {{indice+1}} {{usuarioDeLista.nombre}} {{usuarioDeLista.apellido}} {{usuarioDeLista.rol}} {{usuarioDeLista.email}}
+          
+          <a [routerLink]="['/actualiza', indice]" [queryParams]="{accion:'1'}">
+
+            Actualizar
+         
+        </a>
+        &nbsp;&nbsp;
+        <a [routerLink]="['/actualiza', indice]" [queryParams]="{accion:'2'}">
+
+            Eliminar
+       
+      </a>
+        </div>
+      
+      </div>
+    </div>
+  </div>-->
+  
+  <!--<div class="container text center">
+    <div class="row lign-items-start">
+      <div class="row" style="color: white; " >
+ 
+        <table class="col table" style="margin-left: 200px;margin-top: 70px;"><br> <br> 
+          <th>Nombre: {{ usuarioDeLista.nombre | uppercase}}</th>
+         <th>Apellido: {{ usuarioDeLista.apellido  | uppercase}}</th>
+         <th>Rol: {{ usuarioDeLista.rol  | uppercase}}</th>
+         <th>Email: {{ usuarioDeLista.email }}</th>
+        
+          <th><a [routerLink]="['/actualiza', indice]" [queryParams]="{accion:'1'}">
+
+            Actualizar
+         
+        </a></th>
+        &nbsp;&nbsp;
+        <th><a [routerLink]="['/actualiza', indice]" [queryParams]="{accion:'2'}">
+
+            Eliminar
+       
+      </a></th>
+    </table>
+      
+      </div>
+    </div>
+  </div>-->
+  <!-- usuario-hijo.component.html -->
+<table class="table">
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Rol</th>
+      <th>Email</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{indice+1}}</td>
+      <td>{{usuarioDeLista.nombre}}</td>
+      <td>{{usuarioDeLista.apellido}}</td>
+      <td>{{usuarioDeLista.rol}}</td>
+      <td>{{usuarioDeLista.email}}</td>
+      <td>
+        <a [routerLink]="['/actualiza', indice]" [queryParams]="{accion:'1'}">Actualizar</a>
+        &nbsp;&nbsp;
+        <a [routerLink]="['/actualiza', indice]" [queryParams]="{accion:'2'}">Eliminar</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  
+  
+  
+   
