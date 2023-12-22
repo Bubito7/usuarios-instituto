@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { UsuarioHijoComponent } from './usuario-hijo/usuario-hijo.component';
-import { UsuarioAtributosComponent } from './usuario-atributos/usuario-atributos.component';
+
 import { ServicioUsuariosService } from './servicio-usuarios.service';
 import { UsuariosService } from './usuarios.service';
 
@@ -39,7 +39,7 @@ const appRutas:Routes = [
   declarations: [//registramos los componentes
     AppComponent,
     UsuarioHijoComponent,
-    UsuarioAtributosComponent,
+    
     NotasComponent,
     HomeComponent,
     ContactoComponent,
