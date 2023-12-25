@@ -6,11 +6,11 @@ import { UsuariosService } from '../usuarios.service';
 
 
 @Component({
-  selector: 'app-notas',
-  templateUrl: './notas.component.html',
-  styleUrls: ['./notas.component.css']
+  selector: 'app-agregar',
+  templateUrl: './agregar.component.html',
+  styleUrls: ['./agregar.component.css']
 })
-export class NotasComponent {
+export class AgregarComponent {
 
   //enrutamos para que podamos usar la funcion, para ello inyectamos en el constructor el servicio router
   constructor(private router: Router, private miServicio: ServicioUsuariosService, private usuarioService: UsuariosService) { }

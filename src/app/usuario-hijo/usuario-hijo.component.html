@@ -17,13 +17,18 @@
       <td>{{usuarioDeLista.rol}}</td>
       <td>{{usuarioDeLista.email}}</td>
       <td>
-        <a [routerLink]="['/actualiza', indice]" [queryParams]="{accion:'1'}">Actualizar</a>
+        <a [routerLink]="['/actualiza', indice]" [queryParams]="{accion:'1'}"  class="btn-actualizar">Actualizar</a>
         &nbsp;&nbsp;
-        <a [routerLink]="['/actualiza', indice]" [queryParams]="{accion:'2'}">Eliminar</a>
+        <a [routerLink]="['/actualiza', indice]" [queryParams]="{accion:'2'}" class="btn-eliminar" >Eliminar</a>
       </td>
     </tr>
   </tbody>
 </table>
+
+
+
+
+
 
   
   

@@ -13,6 +13,28 @@ table {
   }
   
   th {
-    background-color: #f2f2f2; /* Agrega un color de fondo a las celdas del encabezado */
+    background-color:  #fbf3e4 ; /* Agrega un color de fondo a las celdas del encabezado */
+    color:  #a4bcbc  ;
   }
+  
+  /* styles.css */
+
+  .btn-actualizar,
+  .btn-eliminar {
+    background-color: #6c7cab;
+    color: #d4e3ec;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  .btn-actualizar:hover,
+  .btn-eliminar:hover {
+    background-color: #6c7cab;
+    color: #d4e3ec;
+  }
+  
+  
   

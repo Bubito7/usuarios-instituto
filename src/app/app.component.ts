@@ -10,6 +10,7 @@ import { LoginService } from './login/login.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+[x: string]: any;
 
 
 

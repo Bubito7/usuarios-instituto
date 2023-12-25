@@ -1,0 +1,28 @@
+/* styles.css */
+
+.login-btn,
+.logout-btn {
+  background-color: #6c7cab;
+  color: #d4e3ec;
+  padding: 8px 16px; /* Ajusta el relleno según sea necesario */
+  border-radius: 4px; /* Ajusta el radio del borde según sea necesario */
+  cursor: pointer;
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  display: inline-block; /* Asegura que el botón ocupe solo el ancho necesario */
+}
+
+.login-btn:hover,
+.logout-btn:hover {
+  background-color:  #6c7cab; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+  color: #d4e3ec; /* Cambia el color del texto al pasar el ratón sobre el botón */
+}
+/* styles.css (o styles.scss) */
+
+/* Establecer el color de fondo para toda la aplicación */
+body {
+    background-color: #a4bcbc;
+  }
+  
+ 
+  
+  
