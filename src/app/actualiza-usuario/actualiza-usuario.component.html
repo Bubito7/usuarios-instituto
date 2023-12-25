@@ -1,11 +1,12 @@
-<div class="container" style="background-color: cadetblue;text-align: center;background-color: cadetblue;color: white;border-radius: 2%;">
+<div class="container" style="background-color: cadetblue;text-align: center;background-color: cadetblue;color: white;border-radius: 2%; padding: 50px; display:block;">
+  
   <div class="col"  ><br>
     <h1 style="font-size:80px ;">Usuario</h1><br>
   </div>
   <!--Formulario-->
   <form class="form-group row" style="text-align: center;">
   
-    <div class="form-group col-md-3" style="width: 40%;margin-left: 360px;;">
+    <div class="form-group col-md-3" style="width: 30%;margin-left: 35%;;">
 
       <label for="nombre">Nombre:&nbsp;</label><br>
       <input type="text" name="nombre" id="nombre"  [(ngModel)] = "cuadroNombre"><br>
@@ -23,13 +24,13 @@
     
 
       <label for="email">Email:&nbsp;</label><br>
-      <input type="text" name="email" id="email"  [(ngModel)] = "cuadroEmail"><br>
+      <input type="text" name="email" id="email"  [(ngModel)] = "cuadroEmail"><br><br>
       
     
 
     
       
-      <button type="submit" class="btn btn-primary" (click)="actualizaUsuario()" style="margin-top: 35px;">Realizar</button>
+      <button type="submit" class="btn btn-primary" (click)="actualizaUsuario()" style="background-color: #6c7cab; color: #d4e3ec; border: none; padding: 10px 20px; border-radius: 5px;">Realizar</button>
       <!--<button type="submit" class="btn btn-primary" (click)="eliminaUsuario()" style="margin-top: 35px;">Eliminar</button>-->
     </div>
   </form>
